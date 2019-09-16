@@ -4,7 +4,11 @@
       <item v-for="item in items" :itemProp="item" :key="item._id" />Testing
       <div class="col-12 pt-5">
         <CreateItemModal />
-        <button class="btn btn-primary" data-toggle="modal" data-target="#create-car-modal">Add item</button>
+        <button
+          class="btn btn-primary"
+          data-toggle="modal"
+          data-target="#create-item-modal"
+        >Add item</button>
       </div>
     </div>
   </div>
